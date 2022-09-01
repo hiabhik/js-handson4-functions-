@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Q1.Create one function with zero parameter having a console statement;</h4>
+
+    <pre>
+        Ans. function blank(){
+            console.log("Hello world")
+        }
+        blank()
+    </pre>
+    <h4>Q2. Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</h4>
+    <pre>Ans.
+        function sum(num1,num2){
+        return num1+num2;
+    }
+    let result=sum(3,4);
+    console.log(result);
+
+    </pre>
+
+    <h4>Q3.Create one arrow function</h4>
+    <pre>
+        const calc=(x)=>{
+            return x*x;
+        
+        }
+        console.log(calc(5));
+
+        output:25
+    </pre>
+<h4>Q4.</h4>
+    <pre>
+        "Print output: 
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();"
+
+output=Undefined.(Because in the finction girl() x is declared after the console statement.)
+    </pre>
+
+
+
+<h4>Q5.</h4>
+    <pre>
+        "Print output: 
+var x = 21;
+girl ();
+console.log(x)
+function girl() {
+    console.log(x);
+    var x = 20;
+};
+"
+output:undefined and 21.
+    </pre>
+
+<h4>Q6.</h4>
+    <pre>
+        "Print output
+
+var x = 21;
+a();
+b();
+console.log(a);
+a = function() {
+    
+   x = 20;
+  console.log(x);
+};
+b = function() {
+    
+    x = 40;
+   console.log(x);
+};"
+
+output:a is not defined
+    </pre>
+
+
+    <h4>Q7.Write a function that accepts parameter n and returns factorial of n</h4>
+    <pre>
+        function fact(n){
+            let factorial=1;
+            for(let i=1;i< =n;i++)
+               factorial=factorial*i;
+               return f;
+            }
+            console.log(fact(5));
+            
+    </pre>
+</body>
+</html>
